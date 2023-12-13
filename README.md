@@ -3,9 +3,9 @@ JumpServer is the world's first open-source Bastion Host and is licensed under t
 This is a public available vulnerability for bypassing the restriction of IP Whitelisting function in JumpServer 
 
 ## Environment
-Platform: Docker
-Operation System: Ubuntu 22.04
-Image Version: JumpServer Image 3.9.3
+* Platform: Docker
+* Operation System: Ubuntu 22.04
+* Image Version: JumpServer Image 3.9.3
 ![image](https://github.com/N0th1n3/JumpServer-IPRestrictionBypass/assets/150101148/0a426b31-704f-49e9-a53d-12b5f75e5e34)
 
 ## Step to Reproduce
