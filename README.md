@@ -15,14 +15,13 @@ Step 1. Set up a Blacklist Rules of Priority 50 on rejecting all connection for 
 
 
 Step 2. Setup a whitelist rules of Priority 1 (in order to prioritize whitelist rule over blacklist rule) which whitelist the user **[Jeff]** with the IP Address "10.0.0.1" which does not exist in the network
+
 <img width="512" alt="image" src="https://github.com/N0th1n3/JumpServer-IPRestrictionBypass/assets/150101148/5a62f2fa-17ff-4214-b342-8551512586e4">
 
-## Normal Behaviour
+## Expected Behaviour
 With normal condition, the IP restriction should block the user from accessing the portal 
 <img width="823" alt="image" src="https://github.com/N0th1n3/JumpServer-IPRestrictionBypass/assets/150101148/2cebda6c-ac9f-42bc-b3e0-442dc5597d95">
 <img width="644" alt="image" src="https://github.com/N0th1n3/JumpServer-IPRestrictionBypass/assets/150101148/79d26720-8d22-4517-bc8e-a2f61204f009">
-
-
 
 ## Actual Behavour with Request Rewrite
 We have supplemented the header of "X-Real-IP: 10.0.0.1" and the successfully logged into the JumpServer Portal
